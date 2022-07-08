@@ -5,6 +5,8 @@ import { AppComponent } from './root/app.component';
 import { FormsModule } from '@angular/forms';
 import { BindingCompComponent } from './binding-comp/binding-comp.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,

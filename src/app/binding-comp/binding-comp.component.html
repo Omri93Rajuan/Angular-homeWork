@@ -1,10 +1,8 @@
-<div class="container">
-    <figure>
+<figure>
     <img [src]=img.url 
     [alt]=img.alt 
-[hidden]=isHidden >
-<figcaption>{{img.alt}}</figcaption>
+[hidden]=isHidden width="50%">
+<figcaption class="h1 text-success ">{{img.alt}}</figcaption>
 </figure>
-    <!-- <input type="text" [(ng-model)] = "img.alt">; -->
-<button class="btn btn-danger" (click)="toggle()">click</button>
-</div>
+<input type="text" [(ngModel)]=img.alt/>
+<button class="btn btn-success" (click)="toggle()">Magic</button>
