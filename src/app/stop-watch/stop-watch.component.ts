@@ -29,7 +29,7 @@ this.setTime()} ,100)
       this.time.millSeconds = 1
       this.time.seconds++}
       if(this.time.seconds > 60){
-      this.time.seconds = 
+      this.time.seconds = 0
       this.time.minutes++}
       if(this.time.minutes > 60){
       this.time.minutes = 0

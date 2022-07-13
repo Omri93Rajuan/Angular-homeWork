@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './root/app.component';
 import { FormsModule } from '@angular/forms';
 import { StopWatchComponent } from './stop-watch/stop-watch.component';
+import { TimerWatchComponent } from './timer-watch/timer-watch.component';
 // import { BindingCompComponent } from './binding-comp/binding-comp.component';
 
 
@@ -11,7 +12,8 @@ import { StopWatchComponent } from './stop-watch/stop-watch.component';
 @NgModule({
   declarations: [
     AppComponent,
-    StopWatchComponent  ],
+    StopWatchComponent,
+    TimerWatchComponent  ],
   imports: [
     BrowserModule,
     FormsModule
